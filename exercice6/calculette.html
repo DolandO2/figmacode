@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="calculette.css">
+		<script src ="calculette.js" defer></script>
+	</head>
+	<body>
+	<div>
+		<h1> ma Calculette elle est belle peuchère</h1>
+		<section>
+			<input id="output"/>
+			<button class ="bof" id ="c" onclick="effacer()">C</button>
+		</section>
+		<section>
+			<button  onclick ="afficher(1)">1</button>
+			<button  onclick ="afficher(2)">2</button>
+			<button  onclick ="afficher(3)">3</button>
+			<button class ="bof" onclick ="afficher('/')">/
+			</button>
+		</section>
+		<section>
+			<button  onclick ="afficher(4)">4</button>
+			<button  onclick ="afficher(5)">5</button>
+			<button  onclick ="afficher(6)">6</button>
+			<button class ="bof"onclick ="afficher('-')">-
+			</button>
+		</section>
+		<section>
+			<button  onclick ="afficher(7)">7</button>
+			<button  onclick ="afficher(8)">8</button>
+			<button  onclick ="afficher(9)">9</button>
+			<button  class ="bof"onclick ="afficher('+')">+
+			</button>
+		</section>
+		<section>
+			<button onclick ="afficher('.')">.</button>
+			<button onclick ="afficher('0')">0</button>
+			<button class ="yolo"onclick ="calculer('=')">=
+			</button>
+			<button class ="bof"onclick ="afficher('*')">*
+			</button>
+		</section>
+	</div>
+	</body>
+</html>
